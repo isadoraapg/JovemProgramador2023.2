@@ -1,0 +1,257 @@
+		//01)  Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de
+		//senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada
+		//corretamente deve ser impressa a mensagem "Acesso Permitido"e o algoritmo encerrado. Considere que
+		//a senha correta é o valor 2002.
+
+		
+//		double valor;
+//		Scanner sc = new Scanner (System.in);
+		
+//		System.out.println("Digite a senha: ");
+//		valor = sc.nextDouble();
+
+//		while(valor!=2002) {
+//			System.out.println("Senha Inválida");
+//			System.out.println("Digite a senha: ");
+//			valor = sc.nextDouble();
+//		}
+		
+//		System.out.printf("Acesso Permitido");
+		
+//		sc.close();
+
+
+
+		//02)  Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos
+				//no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será
+				//encerrado quando pelo menos uma de duas coordenadas for NULA (nesta situação sem escrever
+				//mensagem alguma).
+
+//				double x, y;
+//				
+//				Scanner sc = new Scanner(System.in);
+//				
+//				System.out.println("Digite a coordenada X: ");
+//				x = sc.nextDouble();
+//				System.out.println("Digite a coordenada Y: ");
+//				y = sc.nextDouble();
+//				
+//				while (x != 0 || y != 0) {
+//					
+//					if (x > 0 && y > 0) {
+//						System.out.println("primeiro");
+//					}
+//					
+//					else if (x < 0 && y > 0) {
+//						System.out.println("segundo");
+//					}
+//					
+//					else if (x < 0 && y < 0) {
+//						System.out.println("terceiro");
+//					}
+//					
+//					else {
+//						System.out.println("quarto");
+//					}
+//					
+//					System.out.println("Digite a coordenada X: ");
+//					x = sc.nextDouble();
+//					System.out.println("Digite a coordenada Y: ");
+//					y = sc.nextDouble();
+//				}
+//				
+//				System.out.println("encerrado");
+
+
+
+
+		//03) Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes.
+				//Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 1.Álcool
+				//2.Gasolina 3.Diesel 4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser
+				//solicitado um novo código (até que seja válido). O programa será encerrado quando o código informado
+				//for o número 4. Deve ser escrito a mensagem: "MUITO OBRIGADO"e a quantidade de clientes que
+				//abasteceram cada tipo de combustível, conforme exemplo
+		
+//		Scanner sc = new Scanner(System.in);
+//		int alcool = 0;
+//		int gasolina = 0;
+//		int diesel = 0;
+//		int combustivel;
+//		
+//		System.out.println("Digite o número correspondente ao combustível abastecido sendo: \n1.Álcool \n2.Gasolina \n3.Diesel \n4.Finalizar");
+//		combustivel = sc.nextInt();
+//		
+//		while (combustivel != 4) {
+//			if (combustivel == 1) {
+//				alcool = alcool + 1;
+//			}
+//			else if (combustivel == 2) {
+//				gasolina = gasolina + 1;
+//			}
+//			else if (combustivel == 3) {
+//				diesel = diesel + 1;
+//			}
+//			else {
+//				System.out.println("Número inválido");
+//			}
+//			combustivel = sc.nextInt();
+//			
+//		}
+//		
+//		System.out.println("Muito Obrigado!");
+//		System.out.println("Álcool: " + alcool);
+//		System.out.println("Gasolina: " + gasolina);
+//		System.out.println("Diesel: " + diesel);
+//		
+//		sc.close();
+
+
+
+
+
+
+
+		//04) Leia um valor inteiro X (1 <= X <= 1000). Em seguida mostre os ímpares de 1 até X, um valor por linha,
+		//inclusive X, se for o caso.
+		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int X = sc.nextInt();		
+//		
+//		for (int i = 1; i <=X ; i++) {
+//			
+//			//par:
+//			//if(i % 2 == 0)
+//			
+//			
+//			//impar:
+//			if(i % 2 != 0) {
+//			System.out.println(i);
+//		}
+//		
+//		} 
+//		
+//		sc.close();
+
+
+
+
+
+
+		//05) Ler um número inteiro N e calcular todos os seus divisores.
+		
+//		Scanner sc = new Scanner(System.in);
+//
+//		int n = sc.nextInt();
+//		
+//		for (int i=1; i<=n; i++) {
+//			if (n % i == 0) {
+//				System.out.println(i);
+//			}
+//		}
+//		
+//		sc.close();
+
+
+
+
+
+		//06) Fazer um programa para ler um número N. Depois leia N pares de números e mostre a divisão do primeiro
+		//pelo segundo. Se o denominador for igual a zero, mostrar a mensagem "divisao impossivel".
+		
+		
+//		Scanner sc = new Scanner(System.in);
+//
+//		int n = sc.nextInt();
+//		
+//		for (int i=0; i<n; i++) {
+//			
+//			int x = sc.nextInt();
+//			int y = sc.nextInt();
+//			
+//			if (y == 0) {
+//				System.out.println("divisao impossivel");
+//			}
+//			else {
+//				double divisao = (double) x / y;
+//				System.out.printf("%.1f%n", divisao);
+//			}
+//		}
+//		
+//		sc.close();
+
+
+
+
+
+
+		//07) Fazer um programa para ler um número inteiro positivo N. O programa deve então mostrar na tela N
+		//linhas, começando de 1 até N. Para cada linha, mostrar o número da linha, depois o quadrado e o cubo
+		//do valor, conforme exemplo.
+		
+		
+//		Scanner sc = new Scanner(System.in);
+//
+//		int n = sc.nextInt();
+//		
+//		for (int i=1; i<=n; i++) {
+//
+//			int primeiro = i;
+//			int segundo = i * i;
+//			int terceiro = i * i * i;
+//			System.out.printf("%d %d %d%n", primeiro, segundo, terceiro);
+//		}
+//		
+//		sc.close();
+
+
+
+
+
+		//08) Ler um valor N. Calcular e escrever seu respectivo fatorial. Fatorial de N = N * (N-1) * (N-2) * (N-3) * ... * 1.
+		//Lembrando que, por definição, fatorial de 0 é 1
+
+//		Scanner sc = new Scanner(System.in);
+//
+//		int n = sc.nextInt();
+//		
+//		int fatorial = 1;
+//		for (int i=1; i<=n; i++) {
+//			fatorial = fatorial * i;
+//		}
+//		
+//		System.out.println(fatorial);
+//		
+//		sc.close();
+
+
+
+
+
+		//09) Leia um valor inteiro N. Este valor será a quantidade de valores inteiros X que serão lidos em seguida.
+		//Mostre quantos destes valores X estão dentro do intervalo [10,20] e quantos estão fora do intervalo,
+		//mostrando essas informações conforme exemplo (use a palavra "in"para dentro do intervalo, e "out"para
+		//fora do intervalo).
+		
+		
+		
+//		Scanner sc = new Scanner(System.in);
+//
+//		int N = sc.nextInt();
+//
+//		int in = 0;
+//		int out = 0;
+//
+//		for (int i = 0; i < N; i++) {
+//			int x = sc.nextInt();
+//			if (x >= 10 && x <= 20) {
+//				in = in + 1;
+//			} else {
+//				out = out + 1;
+//			}
+//		}
+//
+//		System.out.println(in + "in");
+//		System.out.println(out + "out");
+//
+//		sc.close();
